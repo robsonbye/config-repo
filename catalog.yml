@@ -6,3 +6,6 @@ catalog:
    - Mochila Nike Club
    - Jaqueta Umbro Classics
    - Novo produto
+
+logging.level:
+  ROOT: 'DEBUG'   
