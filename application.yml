@@ -1,3 +1,19 @@
 # This email contains the common information for all applications
 
-application.info: Commom info
+# Logging config
+logging.level:
+  com.netflix.discovery: 'OFF'
+
+# Eureka - Service Discovery
+eureka:
+  instance.preferIpAddress: true
+
+# Spring config
+spring.jackson:
+  serialization:
+    indent_output: true
+
+# Security config
+security.oauth2.resource:
+  user-info-uri: http://security/me
+  load-balanced: true
