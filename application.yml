@@ -5,8 +5,8 @@ logging.level:
   com.netflix.discovery: 'OFF'
 
 # Eureka - Service Discovery
-eureka:
-  instance.preferIpAddress: true
+eureka.instance:
+  prefer-ip-address: true
 
 # Spring config
 spring.jackson:
