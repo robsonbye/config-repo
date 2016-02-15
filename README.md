@@ -1,2 +1,3 @@
-# config-repo
+Config Repo
+---
 External configuration repository
